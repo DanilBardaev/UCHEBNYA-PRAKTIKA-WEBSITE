@@ -20,7 +20,7 @@
 
 .my-carousel {
    margin: auto;
-    max-width: 1800px;
+    max-width: 1650px;
    
    
 }
@@ -31,6 +31,6 @@
 
 .my-carousel .carousel-item img {
     object-fit: cover;
-   width: 25%;
+   
    
 }
