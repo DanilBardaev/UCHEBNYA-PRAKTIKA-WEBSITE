@@ -1,0 +1,28 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+.text-content {
+   display: flex; 
+   flex-direction: column;   
+}
+.text-content h2{
+    font-size: 30px;
+}
+.text-content p{
+    font-size: 20px;
+}
+
+.container-img img {
+ width:80%;
+   
+}
+.col-sm {
+    display: flex;
+}
+
+.col-sm p{
+    font-size: 21px;
+}

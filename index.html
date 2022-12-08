@@ -6,64 +6,192 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/css/normalize.css" rel="stylesheet" >
     <link href="/css/reset.css" rel="stylesheet" >
-    <link href="/css/header_top.css" rel="stylesheet" >
-    <link href="/css/header_inner.css" rel="stylesheet">
+    <link href="/css/header.css" rel="stylesheet" >
+    <link rel="stylesheet" href="/css/slider.css">
+    <link rel="stylesheet" href="/css/content.css">
     <title>Информ-Сервис: разработка программного обеспечения</title>
     <link rel="icon" href="img/favicon.ico" type="image/ico" />
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
 </head>
-<body >
-   <div class="container">
-    <div class="row align-items-center justify-content-center ms-4">
-     <img class="col-md-2 col-sm-3 d-flex justify-content-evenly" src="/img/logo1.png" >
-        <div class="col-md-2 col-sm-3 d-flex justify-content-evenly"><a href="index.html">+7 <span>(905)</span> 266-12-85</a></div>
-        <div class="col-md-2 col-sm-3 d-flex justify-content-evenly"><a href="index.html">+7 <span>(905)</span> 266-12-85</a></div>
-        <div class="col-md-2 col-sm-3 d-flex justify-content-evenly"><a href="index.html">+7 <span>(905)</span> 266-12-85</a></div> 
-       <form  class="col-md-4 col-sm-6" action="/registration form/registration.html" target="_blank"><button class="btn-hover color-2 col-md-4 col-sm-4 ">Авторизация</button></form>
-    </div>
-   </div>
-   <div id="headerwrap">
-   <div class="container">
-      <div class="row">
-         <div class="col-md-2 col-sm-4 d-flex justify-content-evenly"><a href="index.html">Главная</a></div>
-         <div class="col-md-2 col-sm-4 d-flex justify-content-evenly"><a href="index.html">О нас</a></div>
-         <div class="col-md-2 col-sm-4 d-flex justify-content-evenly"><a href="index.html">Услуги</a></div>
-         <div class="col-md-2 col-sm-4 d-flex justify-content-evenly"><a href="index.html">Расположение</a></div>
-         <div class="col-md-2 col-sm-4 d-flex justify-content-evenly"><a href="index.html">Контакты</a></div>
-      </div>
-      </div>
-   </div>
-  
-   <div class="my-carousel">
-      <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
-        <div class="carousel-indicators">
-          <button type="button"data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" ></button>
-        </div>
-       
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/png2.jpg" class="d-block w-100" />
-          </div>
-          <div class="carousel-item">
-            <img src="img/png3.png" class="d-block w-100"  />
-          </div>
-          <div class="carousel-item">
-            <img src="img/png4.png" class="d-block w-100"  />
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev" >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button"data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+<body style="height: 5000px">
+  <header id="header" class="fixed-top">
+  <nav class="navbar navbar-expand-xl">
+    <div class="container">
+      <img src="/img/logo1.png" class="navbar-brand" alt="">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+          <li class="nav-item pe-4 mx-1 ">
+            <a class="nav-link"  href="/index.html">Главная</a>
+          </li>
+          <li class="nav-item pe-4 mx-1">
+            <a class="nav-link" href="#">О нас</a>
+          </li>
+          <li class="nav-item  pe-4 mx-1" >
+            <a class="nav-link" href="#">Услуги</a>
+          </li>
+          <li class="nav-item pe-4 mx-1">
+            <a class="nav-link" href="#">Расположение</a>
+          </li>
+          <li class="nav-item mx-1">
+            <a class="nav-link" href="#">Контакты</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control my-4" type="search" placeholder="Найти" aria-label="Search">
+          <form  class="col-md-3 col-sm-6 " action="/registration/registration.html" target="_blank"><button class="btn-hover color-2 col-md-3 col-sm-4 ms-5">Авторизация</button></form>
+        </form>
+        
       </div>
     </div>
-   </div>
+  </nav>
+</header>
+<div class="my-carousel">
+  <div
+    id="carouselExampleIndicators"
+    class="carousel slide carousel-fade"
+    data-bs-ride="carousel"
+    data-bs-interval="3000"
+  >
+    <div class="carousel-indicators">
+      <button
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide-to="0"
+        class="active"
+        aria-current="true"
+        aria-label="Slide 1"
+      ></button>
+      <button
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide-to="1"
+        aria-label="Slide 2"
+      ></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"
+      ></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/img/png6.png" class="d-block w-100" alt="..." />
+        <div class="entry-description-container">
+          <div class="slider-title-head">
+            <h3 class="entry-title">
+              <a href="#" title=""
+                ><span>О нас</span></a
+              >
+            </h3>
+          </div>
+          <div class="entry-content">
+            <p>
+              • Компания<span> Информ Сервис </span>обладает опытом разработки ПО с 1993 года <br>
+
+              • За 30 лет нами успешно реализовано более 200 проектов различного масштаба <br>
+
+              • Нам доверяют более 50 компаний из России, ЕАЭС, Германии, Австрии, Великобритании, США  <br>
+
+              • Длительность ряда проектов превышает 25 лет <br>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/img/png5.jpg" class="d-block w-100" alt="..." />
+        <div class="entry-description-container">
+          <div class="slider-title-head">
+            <h3 class="entry-title">
+              <a href="#" title=""><span>Технологии</span></a>
+            </h3>
+          </div>
+          <div class="entry-content">
+            <p>
+             iOS • Android • Harmony OS • Аврора OC • SmartTV • SmartWatch • Custom SDK • IoT • Objective-C • Swift • Java • Kotlin • Flutter • React Native
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/img/png7.jpg" class="d-block w-100" alt="..." />
+        <div class="entry-description-container">
+          <div class="slider-title-head">
+            <h3 class="entry-title">
+              <a href="#" title=""
+                ><span></span></a
+              >
+            </h3>
+          </div>
+          <div class="entry-content">
+            <p>
+              <span>• Более 200</span> выполненных проектов <br>
+              <span>• 80% </span> клиентов обращаются <span>повторно</span> <br>
+              • Срееднее время сотрудничества с один клиентом <span>- 5 лет</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div id="container">
+      <div class="row my-4">
+      <div class="container-img col-sm col-md-4 my-4">
+        <img src="/img/png8.png" alt="">
+     </div>
+     <div class="text-content col-sm col-md-4 my-5">
+      <h2 >• Современный стек технологий</h2>
+        <p class="my-2 mx-4 pb-4">.NET Core, ASP.NET MVC, .NET Frameworks, Spring <br>Core, Spring MVC, Vue.JS, React, Angular, Knockout.JS</p>
+        <h2 class=>• Платформы и ОС</h2>
+        <p class="my-2 mx-4 pb-4 ">Linux, Windows, iOS, Android, cross-platform,<br> multiplatform, IoT, Portable</p>
+        <h2 >• СУБД</h2>
+        <p class="my-2 mx-4 ">Microsoft SQL Server, Oracle, PostgreSQL, MySQL,<br> SQLite и др</p>
+      </div>
+    </div>
+    </div>
+    <div class="container">
+      <h1 class="text-center">Предметные области разработки</h1>
+      <div class="row-fluid mx-5 my-5">
+        <div class="col-sm">
+          <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-globe2" viewBox="0 0 16 16">
+            <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855-.143.268-.276.56-.395.872.705.157 1.472.257 2.282.287V1.077zM4.249 3.539c.142-.384.304-.744.481-1.078a6.7 6.7 0 0 1 .597-.933A7.01 7.01 0 0 0 3.051 3.05c.362.184.763.349 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9.124 9.124 0 0 1-1.565-.667A6.964 6.964 0 0 0 1.018 7.5h2.49zm1.4-2.741a12.344 12.344 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332zM8.5 5.09V7.5h2.99a12.342 12.342 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.612 13.612 0 0 1 7.5 10.91V8.5H4.51zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741H8.5zm-3.282 3.696c.12.312.252.604.395.872.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a6.696 6.696 0 0 1-.598-.933 8.853 8.853 0 0 1-.481-1.079 8.38 8.38 0 0 0-1.198.49 7.01 7.01 0 0 0 2.276 1.522zm-1.383-2.964A13.36 13.36 0 0 1 3.508 8.5h-2.49a6.963 6.963 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667zm6.728 2.964a7.009 7.009 0 0 0 2.275-1.521 8.376 8.376 0 0 0-1.197-.49 8.853 8.853 0 0 1-.481 1.078 6.688 6.688 0 0 1-.597.933zM8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855.143-.268.276-.56.395-.872A12.63 12.63 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.963 6.963 0 0 0 14.982 8.5h-2.49a13.36 13.36 0 0 1-.437 3.008zM14.982 7.5a6.963 6.963 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008h2.49zM11.27 2.461c.177.334.339.694.482 1.078a8.368 8.368 0 0 0 1.196-.49 7.01 7.01 0 0 0-2.275-1.52c.218.283.418.597.597.932zm-.488 1.343a7.765 7.765 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z"/>
+          </svg>
+          <p class="mx-5 my-2 pb-5">Планирование ресурсов предприятия и управление производством (ERP/MES).</p>
+        </div>
+        <div class="col-sm">
+         <svg version="1.1" id="Capa_1"  width="50" height="50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 297 297" style="enable-background:new 0 0 297 297;" xml:space="preserve"><g><path d="M291.219,78.753L153.176,9.732c-2.943-1.473-6.409-1.473-9.353,0L5.781,78.753C2.238,80.525,0,84.145,0,88.107v189.808 c0,5.775,4.682,10.458,10.458,10.458h34.511c5.775,0,10.458-4.682,10.458-10.458V115.82h186.148v162.095 c0,5.775,4.682,10.458,10.458,10.458h34.511c5.775,0,10.458-4.682,10.458-10.458V88.107C297,84.145,294.762,80.525,291.219,78.753z M276.085,267.457h-13.595V105.362c0-5.775-4.682-10.458-10.458-10.458H44.968c-5.775,0-10.458,4.682-10.458,10.458v162.095H20.915 V94.57L148.5,30.778L276.085,94.57V267.457z"/><path d="M217.521,132.552H148.5c-4.043,0-7.32,3.277-7.32,7.32v61.701H79.479c-4.043,0-7.32,3.277-7.32,7.32v69.021 c0,4.043,3.277,7.32,7.32,7.32h138.042c4.043,0,7.32-3.277,7.32-7.32V139.873C224.842,135.829,221.564,132.552,217.521,132.552z M155.82,226.568l16.837,16.837l-16.837,16.837V226.568z M141.18,260.241l-16.837-16.837l16.837-16.837V260.241z M166.174,216.214 h33.673l-16.837,16.837L166.174,216.214z M166.174,201.573l16.837-16.837l16.837,16.837H166.174z M210.201,191.22l-16.836-16.837 l16.836-16.837V191.22z M183.011,164.03l-16.837-16.837h33.673L183.011,164.03z M172.657,174.383L155.82,191.22v-33.673 L172.657,174.383z M113.989,233.051l-16.837-16.837h33.673L113.989,233.051z M103.636,243.404l-16.837,16.837v-33.673 L103.636,243.404z M113.989,253.758l16.837,16.837H97.153L113.989,253.758z M183.01,253.758l16.837,16.837h-33.673L183.01,253.758z M193.364,243.404l16.837-16.837v33.673L193.364,243.404z"/></g></svg>
+          <p class="mx-5 my-2 pb-5">Системы управления складами (WMS), включая автоматические. Штрих-кодирование, терминалы сбора данных.</p>
+        </div>
+        <div class="col-sm">
+        <svg version="1.1" width="50" height="50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 512 512"><g><g><path d="m460.2,387.1h-327v-335.3h327v335.3zm-81.4,73.1h-327v-358.3h40.5v305.5c0,11.3 9.1,20.4 20.4,20.4h266.1v32.4h-5.68434e-14zm101.8-449.2h-367.9c-11.3,0-20.4,9.1-20.4,20.4v29.7h-60.9c-11.3,7.10543e-15-20.4,9.1-20.4,20.4v399.1c0,11.3 9.1,20.4 20.4,20.4h367.8c11.3,0 20.4-9.1 20.4-20.4v-52.7h60.9c11.3,0 20.4-9.1 20.4-20.4v-376.1c0.1-11.3-9-20.4-20.3-20.4z"/><path d="m209.2,153.7h174.9c11.3,0 20.4-9.1 20.4-20.4 0-11.3-9.1-20.4-20.4-20.4h-174.9c-11.3,0-20.4,9.1-20.4,20.4 2.84217e-14,11.2 9.1,20.4 20.4,20.4z"/><path d="m209.2,239.9h174.9c11.3,0 20.4-9.1 20.4-20.4 0-11.3-9.1-20.4-20.4-20.4h-174.9c-11.3,0-20.4,9.1-20.4,20.4 2.84217e-14,11.2 9.1,20.4 20.4,20.4z"/><path d="m209.2,326.1h174.9c11.3,0 20.4-9.1 20.4-20.4 0-11.3-9.1-20.4-20.4-20.4h-174.9c-11.3,0-20.4,9.1-20.4,20.4 2.84217e-14,11.2 9.1,20.4 20.4,20.4z"/></g></g></svg>
+           <p class="mx-5 my-2 pb-5">Системы управления взаимодействиями с клиентами (CRM).</p>
+         </div>
+         <div class="col-sm">
+         <svg version="1.1" width="50" height="50" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><g><g><path d="M60,210v121h211V210H60z M241,301H90v-61h151V301z"/></g></g><g><g><rect x="60" y="421" width="30" height="30"/></g></g><g><g><rect x="60" y="361" width="30" height="30"/></g></g><g><g><rect x="121" y="421" width="30" height="30"/></g></g><g><g><rect x="121" y="361" width="30" height="30"/></g></g><g><g><rect x="181" y="421" width="30" height="30"/></g></g><g><g><rect x="241" y="361" width="30" height="90"/></g></g><g><g><rect x="181" y="361" width="30" height="30"/></g></g><g><g><path d="M249.787,0L151,98.787V150H0v362h331v-91h181V0H249.787z M241,51.213V90h-38.787L241,51.213z M301,482H30V180h271V482z M482,391H331V150H181v-30h90V30h211V391z"/></g></g><g><g><path d="M406,150c-8.271,0-15-6.729-15-15s6.729-15,15-15s15,6.729,15,15h30c0-19.555-12.541-36.228-30-42.42V60h-30v32.58 c-17.459,6.192-30,22.865-30,42.42c0,24.813,20.187,45,45,45c8.271,0,15,6.729,15,15s-6.729,15-15,15s-15-6.729-15-15h-30 c0,19.555,12.541,36.228,30,42.42V270h30v-32.58c17.459-6.192,30-22.865,30-42.42C451,170.187,430.813,150,406,150z"/></g></g><g><g><rect x="361" y="301" width="90" height="30"/></g></g></svg>
+            <p class="mx-5 my-2 pb-5">Интеграция с системами SAP/B1, 1С, «Диадок», «Честный знак», «Электронный ПТС».</p>
+          </div>
+          <div class="col-sm">
+            <svg version="1.1" id="Capa_1" width="50" height="50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 56 56" style="enable-background:new 0 0 56 56;" xml:space="preserve"><g><g><path d="M47,0H17c-2.446,0-4.479,1.768-4.908,4.092c-2.028,0.375-3.625,1.972-4,4C5.768,8.521,4,10.554,4,13v38 c0,2.757,2.243,5,5,5h30c2.446,0,4.479-1.768,4.908-4.092c2.028-0.375,3.625-1.972,4-4C50.232,47.479,52,45.446,52,43V5 C52,2.243,49.757,0,47,0z M42,51c0,1.654-1.346,3-3,3H9c-1.654,0-3-1.346-3-3V13c0-1.654,1.346-3,3-3h30c1.654,0,3,1.346,3,3V51z M46,47c0,1.302-0.839,2.402-2,2.816V13c0-2.757-2.243-5-5-5H10.184C10.598,6.839,11.698,6,13,6h30c1.654,0,3,1.346,3,3V47z M50,43c0,1.302-0.839,2.402-2,2.816V9c0-2.757-2.243-5-5-5H14.184C14.598,2.839,15.698,2,17,2h30c1.654,0,3,1.346,3,3V43z"/><path d="M14.707,16.293l-1.414,1.414l2,2C15.488,19.902,15.744,20,16,20s0.512-0.098,0.707-0.293l5-5l-1.414-1.414L16,17.586 L14.707,16.293z"/><path d="M20,22h-8v-8h6v-2h-7c-0.552,0-1,0.447-1,1v10c0,0.553,0.448,1,1,1h10c0.552,0,1-0.447,1-1v-5h-2V22z"/><path d="M14.707,30.293l-1.414,1.414l2,2C15.488,33.902,15.744,34,16,34s0.512-0.098,0.707-0.293l5-5l-1.414-1.414L16,31.586 L14.707,30.293z"/><path d="M20,36h-8v-8h6v-2h-7c-0.552,0-1,0.447-1,1v10c0,0.553,0.448,1,1,1h10c0.552,0,1-0.447,1-1v-5h-2V36z"/><path d="M14.707,44.293l-1.414,1.414l2,2C15.488,47.902,15.744,48,16,48s0.512-0.098,0.707-0.293l5-5l-1.414-1.414L16,45.586 L14.707,44.293z"/><path d="M20,50h-8v-8h6v-2h-7c-0.552,0-1,0.447-1,1v10c0,0.553,0.448,1,1,1h10c0.552,0,1-0.447,1-1v-5h-2V50z"/><rect x="24" y="13" width="14" height="2"/><rect x="24" y="17" width="14" height="2"/><rect x="24" y="21" width="14" height="2"/><rect x="24" y="27" width="14" height="2"/><rect x="24" y="31" width="14" height="2"/><rect x="24" y="35" width="14" height="2"/><rect x="24" y="41" width="14" height="2"/><rect x="24" y="45" width="14" height="2"/><rect x="24" y="49" width="14" height="2"/></g></g></svg>
+              <p class="mx-5 my-2 pb-5">Корпоративные сайты, интернет-магазины.</p>
+            </div>
+            <div class="col-sm">
+              <svg version="1.1" id="Capa_1" width="50" height="50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 56 56" style="enable-background:new 0 0 56 56;" xml:space="preserve"><g><g><path d="M47,0H17c-2.446,0-4.479,1.768-4.908,4.092c-2.028,0.375-3.625,1.972-4,4C5.768,8.521,4,10.554,4,13v38 c0,2.757,2.243,5,5,5h30c2.446,0,4.479-1.768,4.908-4.092c2.028-0.375,3.625-1.972,4-4C50.232,47.479,52,45.446,52,43V5 C52,2.243,49.757,0,47,0z M42,51c0,1.654-1.346,3-3,3H9c-1.654,0-3-1.346-3-3V13c0-1.654,1.346-3,3-3h30c1.654,0,3,1.346,3,3V51z M46,47c0,1.302-0.839,2.402-2,2.816V13c0-2.757-2.243-5-5-5H10.184C10.598,6.839,11.698,6,13,6h30c1.654,0,3,1.346,3,3V47z M50,43c0,1.302-0.839,2.402-2,2.816V9c0-2.757-2.243-5-5-5H14.184C14.598,2.839,15.698,2,17,2h30c1.654,0,3,1.346,3,3V43z"/><path d="M14.707,16.293l-1.414,1.414l2,2C15.488,19.902,15.744,20,16,20s0.512-0.098,0.707-0.293l5-5l-1.414-1.414L16,17.586 L14.707,16.293z"/><path d="M20,22h-8v-8h6v-2h-7c-0.552,0-1,0.447-1,1v10c0,0.553,0.448,1,1,1h10c0.552,0,1-0.447,1-1v-5h-2V22z"/><path d="M14.707,30.293l-1.414,1.414l2,2C15.488,33.902,15.744,34,16,34s0.512-0.098,0.707-0.293l5-5l-1.414-1.414L16,31.586 L14.707,30.293z"/><path d="M20,36h-8v-8h6v-2h-7c-0.552,0-1,0.447-1,1v10c0,0.553,0.448,1,1,1h10c0.552,0,1-0.447,1-1v-5h-2V36z"/><path d="M14.707,44.293l-1.414,1.414l2,2C15.488,47.902,15.744,48,16,48s0.512-0.098,0.707-0.293l5-5l-1.414-1.414L16,45.586 L14.707,44.293z"/><path d="M20,50h-8v-8h6v-2h-7c-0.552,0-1,0.447-1,1v10c0,0.553,0.448,1,1,1h10c0.552,0,1-0.447,1-1v-5h-2V50z"/><rect x="24" y="13" width="14" height="2"/><rect x="24" y="17" width="14" height="2"/><rect x="24" y="21" width="14" height="2"/><rect x="24" y="27" width="14" height="2"/><rect x="24" y="31" width="14" height="2"/><rect x="24" y="35" width="14" height="2"/><rect x="24" y="41" width="14" height="2"/><rect x="24" y="45" width="14" height="2"/><rect x="24" y="49" width="14" height="2"/></g></g></svg>
+                <p class="mx-5 my-2 pb-5">Авиация. Наземная обработка грузов, мониторинг безопасности, Бортовые информационно- развлекательные системы.</p>
+              </div>
+              <div class="col-sm">
+                <svg version="1.1" id="Capa_1" width="50" height="50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 56 56" style="enable-background:new 0 0 56 56;" xml:space="preserve"><g><g><path d="M47,0H17c-2.446,0-4.479,1.768-4.908,4.092c-2.028,0.375-3.625,1.972-4,4C5.768,8.521,4,10.554,4,13v38 c0,2.757,2.243,5,5,5h30c2.446,0,4.479-1.768,4.908-4.092c2.028-0.375,3.625-1.972,4-4C50.232,47.479,52,45.446,52,43V5 C52,2.243,49.757,0,47,0z M42,51c0,1.654-1.346,3-3,3H9c-1.654,0-3-1.346-3-3V13c0-1.654,1.346-3,3-3h30c1.654,0,3,1.346,3,3V51z M46,47c0,1.302-0.839,2.402-2,2.816V13c0-2.757-2.243-5-5-5H10.184C10.598,6.839,11.698,6,13,6h30c1.654,0,3,1.346,3,3V47z M50,43c0,1.302-0.839,2.402-2,2.816V9c0-2.757-2.243-5-5-5H14.184C14.598,2.839,15.698,2,17,2h30c1.654,0,3,1.346,3,3V43z"/><path d="M14.707,16.293l-1.414,1.414l2,2C15.488,19.902,15.744,20,16,20s0.512-0.098,0.707-0.293l5-5l-1.414-1.414L16,17.586 L14.707,16.293z"/><path d="M20,22h-8v-8h6v-2h-7c-0.552,0-1,0.447-1,1v10c0,0.553,0.448,1,1,1h10c0.552,0,1-0.447,1-1v-5h-2V22z"/><path d="M14.707,30.293l-1.414,1.414l2,2C15.488,33.902,15.744,34,16,34s0.512-0.098,0.707-0.293l5-5l-1.414-1.414L16,31.586 L14.707,30.293z"/><path d="M20,36h-8v-8h6v-2h-7c-0.552,0-1,0.447-1,1v10c0,0.553,0.448,1,1,1h10c0.552,0,1-0.447,1-1v-5h-2V36z"/><path d="M14.707,44.293l-1.414,1.414l2,2C15.488,47.902,15.744,48,16,48s0.512-0.098,0.707-0.293l5-5l-1.414-1.414L16,45.586 L14.707,44.293z"/><path d="M20,50h-8v-8h6v-2h-7c-0.552,0-1,0.447-1,1v10c0,0.553,0.448,1,1,1h10c0.552,0,1-0.447,1-1v-5h-2V50z"/><rect x="24" y="13" width="14" height="2"/><rect x="24" y="17" width="14" height="2"/><rect x="24" y="21" width="14" height="2"/><rect x="24" y="27" width="14" height="2"/><rect x="24" y="31" width="14" height="2"/><rect x="24" y="35" width="14" height="2"/><rect x="24" y="41" width="14" height="2"/><rect x="24" y="45" width="14" height="2"/><rect x="24" y="49" width="14" height="2"/></g></g></svg>
+                  <p class="mx-5 my-2 pb-5">Миграция Windows (.Net) решений на Linux.Миграция Windows (.Net) решений на Linux.</p>
+                </div>
+                <div class="col-sm">
+                  <svg version="1.1" id="Capa_1" width="50" height="50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 56 56" style="enable-background:new 0 0 56 56;" xml:space="preserve"><g><g><path d="M47,0H17c-2.446,0-4.479,1.768-4.908,4.092c-2.028,0.375-3.625,1.972-4,4C5.768,8.521,4,10.554,4,13v38 c0,2.757,2.243,5,5,5h30c2.446,0,4.479-1.768,4.908-4.092c2.028-0.375,3.625-1.972,4-4C50.232,47.479,52,45.446,52,43V5 C52,2.243,49.757,0,47,0z M42,51c0,1.654-1.346,3-3,3H9c-1.654,0-3-1.346-3-3V13c0-1.654,1.346-3,3-3h30c1.654,0,3,1.346,3,3V51z M46,47c0,1.302-0.839,2.402-2,2.816V13c0-2.757-2.243-5-5-5H10.184C10.598,6.839,11.698,6,13,6h30c1.654,0,3,1.346,3,3V47z M50,43c0,1.302-0.839,2.402-2,2.816V9c0-2.757-2.243-5-5-5H14.184C14.598,2.839,15.698,2,17,2h30c1.654,0,3,1.346,3,3V43z"/><path d="M14.707,16.293l-1.414,1.414l2,2C15.488,19.902,15.744,20,16,20s0.512-0.098,0.707-0.293l5-5l-1.414-1.414L16,17.586 L14.707,16.293z"/><path d="M20,22h-8v-8h6v-2h-7c-0.552,0-1,0.447-1,1v10c0,0.553,0.448,1,1,1h10c0.552,0,1-0.447,1-1v-5h-2V22z"/><path d="M14.707,30.293l-1.414,1.414l2,2C15.488,33.902,15.744,34,16,34s0.512-0.098,0.707-0.293l5-5l-1.414-1.414L16,31.586 L14.707,30.293z"/><path d="M20,36h-8v-8h6v-2h-7c-0.552,0-1,0.447-1,1v10c0,0.553,0.448,1,1,1h10c0.552,0,1-0.447,1-1v-5h-2V36z"/><path d="M14.707,44.293l-1.414,1.414l2,2C15.488,47.902,15.744,48,16,48s0.512-0.098,0.707-0.293l5-5l-1.414-1.414L16,45.586 L14.707,44.293z"/><path d="M20,50h-8v-8h6v-2h-7c-0.552,0-1,0.447-1,1v10c0,0.553,0.448,1,1,1h10c0.552,0,1-0.447,1-1v-5h-2V50z"/><rect x="24" y="13" width="14" height="2"/><rect x="24" y="17" width="14" height="2"/><rect x="24" y="21" width="14" height="2"/><rect x="24" y="27" width="14" height="2"/><rect x="24" y="31" width="14" height="2"/><rect x="24" y="35" width="14" height="2"/><rect x="24" y="41" width="14" height="2"/><rect x="24" y="45" width="14" height="2"/><rect x="24" y="49" width="14" height="2"/></g></g></svg>
+                    <p class="mx-5 my-2 pb-5">Портирование баз данных Oracle на PostgreSQL.</p>
+                  </div>
+                
+      </div>
+      </div>
+    </div>
+    
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>

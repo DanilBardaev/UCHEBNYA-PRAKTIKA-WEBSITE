@@ -1,29 +1,24 @@
+.navbar{
+    background: white;
+} 
 
+.navbar-brand {
+    max-width: 220px;
+    max-height: 220px;
+}
 
-.col-md-2 a {
-    list-style-type: none;
-    text-decoration: none;
+.nav-item a {
     color: black;
-    font-size: 15px;
-    font-weight: 600;
+    font-weight: 400;
 }
-.col-md-2 span {
-    color:#7952b3;
-    font-size: 17px;
-}
-.col-md-2 a:hover{
-    opacity: 0.5;
-    color:black
-}
-
-.row img {
-    width: 15%;
+.nav-item a:hover{
+    opacity: 0.8;
+    color: #cc8330ef;
 }
 
 .btn-hover {
     margin: 20px;
     min-width: 160px;
-    margin-top: px;
     height: 40px;
     font-size: 16px;
     font-weight: 600;
@@ -35,8 +30,7 @@
     border-radius: 50px;
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
-    
+    transition: all .4s ease-in-out;   
 }
 
 .btn-hover:hover {
@@ -53,3 +47,4 @@
     background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
     box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
 }
+
