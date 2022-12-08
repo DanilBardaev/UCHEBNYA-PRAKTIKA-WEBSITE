@@ -1,36 +1,32 @@
 #headerwrap {
-    background: linear-gradient(90.58deg,#ffcb52 -9.25%,#ff7b02 111.8%);
-    height: 50px;
-    margin-top: -20px;
+  background: linear-gradient(90.58deg, #ffcb52 -9.25%, #ff7b02 111.8%);
+  height: 50px;
+  margin-top: -20px;
 }
-
 
 .col-md-2 a {
-    list-style-type: none;
-    text-decoration: none;
-    color: black;
-    font-size: 15px;
-    font-weight: 600;
-    padding-top: 10px;
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+  padding-top: 10px;
 }
-.col-md-2 a:hover{
-    opacity: 0.5;
-    color:black
+.col-md-2 a:hover {
+  opacity: 0.5;
+  color: black;
 }
 
 .my-carousel {
-   margin: auto;
-    max-width: 1650px;
-   
-   
+  margin: auto;
+  max-width: 1650px;
+  margin-top: 20px;
 }
 
-.my-carousel .carousel-item { 
-    max-height:650px;
+.my-carousel .carousel-item {
+  max-height: 650px;
 }
 
 .my-carousel .carousel-item img {
-    object-fit: cover;
-   
-   
+  object-fit: cover;
 }

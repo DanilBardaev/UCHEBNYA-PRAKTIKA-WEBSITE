@@ -1,0 +1,17 @@
+.container {
+  max-width: 576px;
+  padding-top: 20px;
+  border-radius: 20px;
+  background: linear-gradient(90.58deg, #ffcb52 -9.25%, #ff7b02 111.8%);
+}
+.button:hover {
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+}
+.button {
+  background-color: rgb(211, 211, 211);
+  border-radius: 10px;
+  height: 45px;
+  width: 125px;
+}
