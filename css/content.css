@@ -26,3 +26,8 @@
 .col-sm p{
     font-size: 21px;
 }
+
+svg {
+    width: 50px;
+    height: 50px;
+}

@@ -4,13 +4,13 @@
   }
   
   .my-carousel .carousel-item {
-    max-height: 660px;
+    max-height: 730px;
   }
   
-  .carousel-item img {
+  .my-carousel .carousel-item img {
     object-fit: cover;
-    margin-top: -160px;
-   
+    margin-top: -80px;
+   height: 730px;
   }
 
   .carousel-caption h5 {
@@ -29,11 +29,11 @@
 }
 .entry-description-container {
     position: absolute;
-    top: 200px;
+    top: 120px;
     background-color: rgba(0, 0, 0, 0.575);
     color: white;
     max-width: 400px;
-    left: 75px;
+    left: 35px;
   }
   .slider-title-head {
     margin-left: 20px;

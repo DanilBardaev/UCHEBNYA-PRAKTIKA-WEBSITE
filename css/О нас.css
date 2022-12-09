@@ -1,0 +1,32 @@
+
+.row {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+.text-content{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;  
+   
+}
+
+.text-content h2{
+    font-size: 30px;
+}
+.text-content p{
+    font-size: 20px;
+}
+
+.container-img img{
+    width:120%;
+}
+
+    hr.hr {
+        border: none; 
+        background-color: rgb(255, 255, 255); 
+        height: 1px; 
+        max-width: 250px;
+        
+    }
