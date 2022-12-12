@@ -1,0 +1,57 @@
+
+
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+.navbar{
+    background: white;
+} 
+
+.navbar-brand {
+    max-width: 220px;
+    max-height: 220px;
+}
+
+.nav-item a {
+    color: black;
+    font-weight: 400;
+}
+.nav-item a:hover{
+    opacity: 0.8;
+    color: #cc8330ef;
+}
+
+.btn-hover {
+    margin: 20px;
+    min-width: 160px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;   
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+.btn-hover.color-2 {
+    background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+}
+

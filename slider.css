@@ -1,0 +1,52 @@
+.my-carousel {
+    margin: auto;
+    margin-top: 130px;
+  }
+  
+  .my-carousel .carousel-item {
+    max-height: 730px;
+  }
+  
+  .my-carousel .carousel-item img {
+    object-fit: cover;
+    margin-top: -80px;
+   height: 730px;
+  }
+
+  .carousel-caption h5 {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 580;
+}
+.carousel-caption p {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 580;
+}
+.entry-description-container {
+    position: absolute;
+    top: 120px;
+    background-color: rgba(0, 0, 0, 0.575);
+    color: white;
+    max-width: 400px;
+    left: 35px;
+  }
+  .slider-title-head {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .entry-title a {
+    text-decoration: none;
+    color: white;
+  }
+  .entry-content {
+    margin: 20px;
+  }
+  .entry-content  span {
+    font-weight: 600;
+    font-size: 25;
+  }
