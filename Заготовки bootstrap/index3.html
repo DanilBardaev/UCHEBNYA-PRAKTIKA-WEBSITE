@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5833c2855b.js" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<script
+src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+crossorigin="anonymous"
+></script>
+<link rel="stylesheet" href="/Заготовки bootstrap/dropdown.css">
+
+
+<title>Информ-Сервис: разработка программного обеспечения</title>
+<link rel="icon" href="img/favicon.ico" type="image/ico" />
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+</head>
+<body style:"">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            
+          <a class="navbar-brand" href="#">Панель навигации</a>
+          <div id="bbb" class="badge bg-primary" >badge</div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDarkDropdown"
+            aria-controls="navbarNavDarkDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDarkDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Выпадающий список
+                </a>
+                <ul
+                  class="dropdown-menu dropdown-menu-dark"
+                  aria-labelledby="navbarDarkDropdownMenuLink"
+                >
+                  <li><a class="dropdown-item" href="#">Действие</a></li>
+                  <li><a class="dropdown-item" href="#">Другое действие</a></li>
+                  <li class="dropdown">
+                    <a class="dropdown-item" href="#">Что-то еще здесь</a>
+                    <ul class="dropdown-menu dropdown-menu-dark submenu">
+                      <li><a href="" class="dropdown-item"></a></li>
+                      <li><a href="" class="dropdown-item"></a></li>
+                      <li><a href="" class="dropdown-item"></a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <audio src="/plyus_org-z_uk-u_edomleniya-1.mp3" id="aaa"></audio>
+<script src="/js/jquery.js"></script>
+<script src="/js/main.js"></script>
+<script defer>
+  function shetshik(){
+  let d = new Date();
+  let ddd = d.getHours()+':'+d.getMinutes()+':'+d.getSeconds();
+  document.getElementById("bbb").innerHTML=ddd;
+  document.getElementById("aaa").play()
+  console.log(ddd);
+  }
+ setInterval(shetshik,10000);
+ shetshik()
+  
+</script>
+</body>
+</html>
