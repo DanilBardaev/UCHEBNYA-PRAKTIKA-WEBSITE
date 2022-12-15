@@ -16,14 +16,17 @@ body {
 
 .nav-item a {
     color: black;
-    font-weight: 400;
+    font-weight: 600;
 }
 .nav-item a:hover{
-    opacity: 0.8;
+    opacity: 0.7;
     color: #cc8330ef;
 }
 
 
 p.text10sec { 
 font-size: 10px;
+}
+.container-audio p{
+    position: absolute
 }
