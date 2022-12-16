@@ -9,14 +9,13 @@
 .container-img img{
     width:150%;
 }
-
-    hr.hr {
+hr.hr {
         border: none; 
         background-color: rgb(255, 255, 255); 
         height: 1px; 
         max-width: 250px;
         
-    }
+}
 .text-content h2{
     font-weight: 700;
     font-size: 40px;
@@ -28,7 +27,7 @@
     
 }
 .text-content p {
-    font-size: 18px;
+    font-size: 21px;
     font-weight: 400;
     line-height: 24px;
 }
@@ -62,16 +61,18 @@ button.mx-3:hover{
     align-items: center;
     
 }
-
+.blocks1:hover{
+    box-shadow: -1px 3px 45px -16px rgba(0, 0, 0, 0.75);
+}
 .text-block h1{
-font-size: 25px;
+font-size: 27px;
 font-family: Releway;
 font-weight: 600;
 margin: auto;
 font-family:  'Oswald', sans-serif;
 }
 .text-block p {
-    font-size: 18px;
+    font-size: 22px;
     opacity: 0.7;
     font-family: Releway;
     font-weight: 500;
@@ -79,5 +80,40 @@ font-family:  'Oswald', sans-serif;
     font-family:  'Oswald', sans-serif;
    
 }
+h1.text-center{
+    font-weight: 600;
+}
+p.text-center {
+    margin: auto;
+    font-size: 25px;
+    max-width: 680px;
+    background-color: rgba(0, 0, 0, 0.151);
+    border-radius: 13px;
+}
+.row {
+    display: flex;
+    justify-content: center;
+   
+  }
+  .carousel-inner {
+ 
+    padding: 50px;
+  }
 
-
+  img.card-img-top{
+    margin: auto;
+    width: 10%;
+  }
+div.card{
+    margin: auto;
+    min-height: 300px;
+    max-width: 1800px;
+}
+.card-body h5 {
+    font-size: 35px;
+    font-weight: 600;
+}
+.card-body p {
+    font-size: 25px;
+   
+}

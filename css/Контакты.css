@@ -1,3 +1,18 @@
+
+a{
+    text-decoration: none;
+    color:black
+}
+a:hover{
+    color: #cc8330ef;
+}
+.row.contacts h1 {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+
+
 hr.hr {
     border: none; 
     background-color: rgb(255, 255, 255); 
@@ -5,3 +20,43 @@ hr.hr {
     max-width: 250px;
     
 }
+
+.text-all{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+}
+
+input.sms{
+    min-height: 150px;
+}
+
+h1.text-center span {
+    opacity: 0.5;
+    font-size: 28px;
+}
+
+p.text-center {
+    font-size: 21px;
+    opacity: 0.7;
+}
+
+hr.requisites {
+    border-left: thick solid #ff0000;
+
+    height: 1px; 
+    max-width: 250px;
+   
+}
+.requisites-lists {
+    display: flex;
+   max-width:1200px;
+    
+}
+.requisites-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   
+}
+
