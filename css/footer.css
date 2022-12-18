@@ -56,4 +56,7 @@ h1.h1 {
     opacity: 0.5;
     text-align: center;
 }
+.footer img.gos {
+    margin-top: -5px;
+}
 
