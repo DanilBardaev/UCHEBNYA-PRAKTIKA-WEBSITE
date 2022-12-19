@@ -28,4 +28,10 @@ p.podpic {
     opacity: 0.6;
     font-size: 15px;
 }
-
+hr.hr {
+    border: none; 
+    background-color: rgb(255, 255, 255); 
+    height: 1px; 
+    max-width: 250px;
+   
+}
