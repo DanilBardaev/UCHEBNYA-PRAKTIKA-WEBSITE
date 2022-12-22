@@ -59,7 +59,7 @@ crossorigin="anonymous"
 </header>
     <h1 class="text-center">Форма регистрации</h1>
 
-    <form class="container-fluid w  col-sm-6 pb-5 ">
+    <form class="container-fluid w  col-sm-6 pb-5" >
       <hr class="w">
       <div class="row mb-4 mt-4 g-2 pb-5">
         <div class="form-floating col-sm-6">
@@ -68,7 +68,7 @@ crossorigin="anonymous"
             class="form-control"
             id="floatingInput"
             placeholder="name@example.com"
-          />
+            required/>
           <label for="floatingInput"><p class="fs-6 ">Имя</p></label>
         </div>
         <div class="form-floating col-sm-6">
@@ -77,7 +77,7 @@ crossorigin="anonymous"
             class="form-control"
             id="floatingPassword"
             placeholder="Пароль"
-          />
+            required/>
           <label for="floatingPassword"><p class="fs-6 ">Фамилия</p></label>
         </div>
       </div>
@@ -85,10 +85,10 @@ crossorigin="anonymous"
         <div class="form-floating col-lg-4 mb-0">
           <input
             type="tel"
-            class="form-control"
-            id="floatingInput"
+            class="phone form-control"
+            id="phone floatingInput"
             placeholder="name@example.com"
-          />
+            required/>
           <label for="floatingInput"><p class="fs-6 ">Номер телефона</p></label>
         </div>
         <div class="form-floating col-lg-3 mb-4">
@@ -97,7 +97,7 @@ crossorigin="anonymous"
             class="form-control"
             id="floatingPassword"
             placeholder="Пароль"
-          />
+            required/>
           <label for="floatingPassword"><p class="fs-6 ">Дата рождения</p></label>
         </div>
         <div class="form-floating col-lg-5 pb-3">
@@ -106,24 +106,24 @@ crossorigin="anonymous"
             class="form-control"
             id="floatingInput"
             placeholder="name@example.com"
-          />
+            required/>
           <label for="floatingInput"><p class="fs-6 ">Адрес электронной почты</p></label>
         </div>
       </div>
       <div class="row g-2">
         <div class="form-floating">
-            <input class="form-control" type="password" id="password-input" placeholder="password" value="">
+            <input class="form-control" type="password" id="password-input" placeholder="password" value="" required>
             <label for="floatingPassword" ><p class="fs-6 ">Введите пароль</p></label>
             <a href="#" class="password-control" onclick="return show_hide_password(this);"></a>  
         </div>
       </div>
       <div class="row g-2">
         <div class="form-floating mb-4">
-          <input type="password"  class="form-control" id="floatingPassword" placeholder="password"/>
+          <input type="password"  class="form-control" id="floatingPassword" placeholder="password" required/>
           <label for="floatingPassword"><p class="fs-6 ">Повторите пароль</p></label>
         </div>
       </div>
-      <button class="button mb-4" type="submit">Зарегистрироваться</button>
+      <button class="button mb-4" type="submit" value="SUBMIT">Зарегистрироваться</button>
     </form>
     <footer>
       <section class="footer">
@@ -170,6 +170,8 @@ crossorigin="anonymous"
         </div>
       </section>
     </footer>
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
     <script src="./js/main.js"></script>
   </body>
 </html>

@@ -10,13 +10,18 @@ function show_hide_password(target) {
   return false;
 }
 const text10sec = document.querySelector(".text10sec");
-let item = 0;
+let time = 0;
 
-let fun = setInterval(function () {
-  item += 1;
-  if (item === 11) {
+let function1 = setInterval(function () {
+time += 1;
+  if (time === 11) {
     document.getElementById("mp3").play();
-    item -= 10;
+    time -= 10;
   }
-  text10sec.innerHTML = item;
+  text10sec.innerHTML = time;
 }, 1000);
+
+// Форма для телефона
+$(".phone").mask("+7(999)999-99-99");
+
+
