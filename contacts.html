@@ -97,25 +97,28 @@ crossorigin="anonymous"
         </div>
       </div>
       <h1 class="text-center">Оставьте свое сообщение. <br><span> Вопрос либо предложение.</span></h1>
+      
       <div class="container inputs">
+       
         <div class="row inputs">
           <div class="row mb-4 mt-4 g-2 pb-3 ">
             <div class="form-floating col-sm-4">
+              
               <input
                 type="text"
                 class="form-control"
                 id="floatingInput"
                 placeholder="name@example.com"
-              />
+                required/>
               <label for="floatingInput"><p class="fs-6 ">Имя</p></label>
             </div>
             <div class="form-floating col-sm-4 ">
               <input
                 type="tel"
-                class="form-control"
+                class="form-control phone"
                 id="floatingInput"
                 placeholder="name@example.com"
-              />
+                required/>
               <label for="floatingInput"><p class="fs-6 ">Номер телефона</p></label>
             </div>
             <div class="form-floating col-sm-4 ">
@@ -124,7 +127,7 @@ crossorigin="anonymous"
                 class="form-control"
                 id="floatingInput"
                 placeholder="name@example.com"
-              />
+                required/>
               <label for="floatingInput"><p class="fs-6 ">Адрес электронной почты</p></label>
             </div>
           </div>
@@ -134,11 +137,11 @@ crossorigin="anonymous"
               class="form-control sms"
               id="floatingInput"
               placeholder="Сообщение"
-            />
+              required/>
             <label for="floatingInput">Сообщение</label>
           </div>
           <a type="submit" class="btn btn-warning fs-5 mb-4">Отправить</a>
-          <p class="text-center pb-5">Нажимая кнопку «Отправить», я даю согласие на обработку своих персональных данных и соглашаюсь с политикой конфиденциальности</p>
+          <p class="text-center pb-5" type="submit" value="SUBMIT">Нажимая кнопку «Отправить», я даю согласие на обработку своих персональных данных и соглашаюсь с политикой конфиденциальности</p>
         </div>
       </div>
       
@@ -229,7 +232,8 @@ crossorigin="anonymous"
         </div>
       </section>
     </footer>
-
-<script src="./js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
