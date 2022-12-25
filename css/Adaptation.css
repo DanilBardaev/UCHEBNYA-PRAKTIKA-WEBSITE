@@ -99,8 +99,21 @@
         width: 85px;
         height: 85px;
     }
+    p.card-text{
+        font-size: 20px;
+    }
 }
-
+@media (max-width:450px) {
+    p.card-text {
+        width: 50%;
+        font-size: 25px; 
+        margin: auto;
+    }
+    h5.card-title {
+        font-size: 30px;
+        margin: auto;
+    }
+}
 @media (max-width:575px) {
     .container-img.www img {
         width: 100%;
