@@ -1,15 +1,14 @@
 .container-fluid.w {
   padding-top: 20px;
   border-radius: 20px;
+
 }
 .button:hover {
   box-shadow: -1px 3px 45px -16px rgba(0, 0, 0, 0.75);
   scale: 1.05;
   transition: 0.4s;
-
 }
 .button {
- 
     border-radius: 0;
     background: black;
     color: white;
@@ -18,6 +17,7 @@
     padding: 15px 10px;
     line-height: 1;
 }
+
 .form-floating.w {
   width: 300px;
   margin: 15px auto;
@@ -54,6 +54,7 @@ p.fs-6 {
 }
 
 hr.w {
+
   margin: auto;
   margin-top: -13px;
   border: none;

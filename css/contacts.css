@@ -63,3 +63,7 @@ hr.requisites {
 h1.text-center{
     font-weight: 600;
 }
+textarea.form-control {
+    min-height: 150px;
+   
+}
