@@ -26,7 +26,7 @@
  width:80%;
    
 }
-.col-sm {
+.col-sm.w {
     display: flex;
 }
 
@@ -35,6 +35,3 @@
    list-style: 10px;
 }
 
-svg {
-  
-}
